@@ -1,0 +1,51 @@
+References:-
+
+Bongiolo, L. (2023, mar, 2 of Publication). Categorical Encoding in Machine Learning: A Guide to Label Encoding and One-Hot Encoding. Medium. https://medium.com/@lgbongiolo/categorical-encoding-in-machine-learning-a-guide-to-label-encoding-and-one-hot-encoding-1b50e6383861
+
+Plotly. (2023). Sunburst Charts in Python. Retrieved June 10, 2023, from https://plotly.com/python/sunburst-charts/
+
+- How to Create a Bar Chart in Plotly Express: https://towardsdatascience.com/5-steps-to-build-beautiful-bar-charts-with-python-3691d434117a
+
+- How to Create a Box Plot in Plotly Express: https://www.sharpsightlabs.com/blog/plotly-boxplot/
+
+Hancock, G. R., & Brand, R. A. (2005). Job demands, job resources, and employee engagement: A state-of-the-art review. Journal of Organizational Behavior, 26(4), 309-349.
+
+Kahn, W. A. (1990). Psychological conditions of personal engagement and disengagement at work. Academy of Management Review, 15(1), 69-83.
+
+Zapf, D., & Hahn, K. (2009). Redefining the concept of employee engagement: An examination of its dimensions and antecedents. Journal of Organizational Behavior, 30(6), 759-782.
+
+Murphy, K. R. (1996). Performance appraisal: Methods and applications. London: Westview Press. This book provides a comprehensive overview of performance appraisal methods and applications, including traditional methods such as ratings scales and essay appraisals,
+
+Robbins, S. P., & Judge, T. A. (2015). Organizational behavior. Upper Saddle River, NJ: Pearson Prentice Hall. This book is another popular textbook on organizational behavior, covering a similar range of topics to Baron and Greenberg.
+
+Plotly Express documentation: https://plotly.com/python/plotly-express/
+This official documentation provides comprehensive guidance on using Plotly Express to create various types of visualizations, including pie charts.
+
+Plotly Express documentation: Customizing Pie Charts: https://plotly.com/python/pie-charts/
+This section of the documentation provides information on customizing pie charts, such as adding hover data, changing colors, and adjusting labels.
+
+Plotly Express Documentation: Histogram (https://plotly.com/python/histograms/) This official documentation provides a comprehensive overview of the px.histogram() function, including its parameters and usage.
+
+Creating Interactive Histograms with Plotly Express (https://medium.com/geekculture/how-to-demarc-the-mean-and-median-in-a-histplot-in-both-python-and-r-86a60c437e67)
+This blog post explains how to create interactive histograms with Plotly Express, allowing users to zoom and pan the chart to explore the data in more detail.
+
+"Plotly Express: A High-Level Interface for Interactive Data Visualization in Python" by Plotly Technologies Inc., 2022.
+This paper introduces Plotly Express, a high-level interface for creating interactive data visualizations in Python. It provides an overview of the library's features and demonstrates its use with a variety of examples.
+
+How to Create Subplots with Plotly Express" by Real Python
+This blog post provides a step-by-step guide to creating subplot charts with Plotly Express.
+https://dev.to/radioactive11/real-time-interactive-plotting-using-sockets-python-plotly-297g
+
+W. McKinney, “Data analysis with pandas: A tutorial,” PyCon, pp. 1–29, 2010.
+
+D. Beazley and B. K. Jones, “Python Cookbook (3rd Edition),” O’Reilly Media, Inc., 2012.
+
+W. McKinney, “pandas: A foundational Python library for data analysis and statistics,” Python for Science, Technology and Engineering Conference (SciPy 2011), pp. 1–16, 2011.
+
+Jake VanderPlas (2011). "NumPy: Getting Started". Pythonic Permutations. Retrieved 2012-09-23.
+
+Wes McKinney (2011). "pandas: a Foundational Python Library for Data Analysis and Statistics". Python for Science, Technology and Engineering Conference (SciPy 2011). Retrieved 2012-01-05.
+
+Chawla, N. V., Bowyer, K. W., Hall, L. O., & Kegelmeyer, W. P. (2002). SMOTE: Synthetic Minority Over-sampling Technique. Journal of Artificial Intelligence Research, 16, 321-357. https://www.jair.org/index.php/jair/article/view/10302
+
+Han, H., Wang, W. Y., & Mao, B. H. (2005). Borderline-SMOTE: A new over-sampling method in imbalanced data sets learning. In Advances in intelligent computing (pp. 878-887). Springer. https://link.springer.com/chapter/10.1007/11538059_91
