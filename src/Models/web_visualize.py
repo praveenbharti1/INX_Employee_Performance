@@ -33,7 +33,7 @@ st.write("""
 
 
 # Load the data
-data = pd.read_excel('../data/INX_Future_Inc_Employee_Performance_CDS_Project2_Data_V1.8 (1)')
+data = pd.read_excel('https://github.com/praveenbharti1/INX_Employee_Performance/raw/main/data/INX_Future_Inc_Employee_Performance_CDS_Project2_Data_V1.8%20(1).xls')
 data.drop(columns= ['EmpNumber', 'PerformanceRating'], inplace= True)
 
 st.sidebar.write("""
