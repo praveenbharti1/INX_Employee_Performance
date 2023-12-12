@@ -97,6 +97,5 @@ The project explores the dataset using descriptive statistics and visualizations
 For better visualisation i have deployed a app using streamlit
 
 Deployment Link:
-[https://inxemployeeperformance.streamlit.app/](https://deploy-emp-performance.streamlit.app/)https://deploy-emp-performance.streamlit.app/
-
+https://deploy-emp-performance.streamlit.app/
 
