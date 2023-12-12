@@ -74,14 +74,14 @@ encoding_dict = {'Other': 0, 'Life Sciences': 1, 'Marketing': 2, 'Human Resource
 user_input['EducationBackground'] = encoding_dict.get(user_input['EducationBackground'].values[0])
 
 
-label_encoder = joblib.load('https://github.com/praveenbharti1/INX_Employee_Performance/blob/main/data/encoder_model.joblib')
+label_encoder = joblib.load('https://github.com/praveenbharti1/INX_Employee_Performance/raw/main/data/encoder_model.joblib')
 for col, model_info in label_encoder.items():
     encoder_model = model_info['model']
     user_input[col] = encoder_model.transform(user_input[col])
 
 
 # Load the power transformer
-power_trans = joblib.load('https://github.com/praveenbharti1/INX_Employee_Performance/blob/main/data/power_transform.joblib')
+power_trans = joblib.load('https://github.com/praveenbharti1/INX_Employee_Performance/raw/main/data/power_transform.joblib')
 
 # Specify columns to transform
 col_trans = ['Age', 'EmpEducationLevel', 'EducationBackground', 'EmpEnvironmentSatisfaction', 'EmpHourlyRate',
@@ -97,13 +97,13 @@ user_input[col_trans] = power_trans.transform(col_to_trans)
 
 
 # Standardize the features
-scaler = joblib.load(r'../../data/scaled.joblib')
+scaler = joblib.load('https://github.com/praveenbharti1/INX_Employee_Performance/raw/main/data/scaled.joblib')
 user_input_scaled = scaler.transform(user_input)
 
 
 
 # Save the PCA model
-pca = joblib.load('https://github.com/praveenbharti1/INX_Employee_Performance/blob/main/data/pca_model.joblib')
+pca = joblib.load('https://github.com/praveenbharti1/INX_Employee_Performance/raw/main/data/pca_model.joblib')
 user_input_pca = pca.transform(user_input_scaled)
 
 st.header("Transformed User Input")
@@ -111,7 +111,7 @@ st.dataframe(user_input_pca)
 
 
 # Load the trained model
-with open('https://github.com/praveenbharti1/INX_Employee_Performance/blob/main/data/random_for_class_hyp.pickle', 'rb') as file:
+with open('https://github.com/praveenbharti1/INX_Employee_Performance/raw/main/data/random_for_class_hyp.pickle', 'rb') as file:
     rand_for_best_para = pickle.load(file)
 
 
