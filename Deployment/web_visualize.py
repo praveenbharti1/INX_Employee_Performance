@@ -33,7 +33,7 @@ st.write("""
 
 
 # Load the data
-data = pd.read_csv('data.csv')
+data = pd.read_csv('https://github.com/praveenbharti1/INX_Employee_Performance/raw/main/Deployment/data.csv')
 data.drop(columns= ['EmpNumber', 'PerformanceRating'], inplace= True)
 
 st.sidebar.write("""
